@@ -25,7 +25,7 @@ gem 'jquery-rails'
 group :production do
   gem 'mysql2'
   gem 'capistrano'
-  gem 'puma'
+  gem 'puma', '~> 2.0.0.b7'
 end
 
 
