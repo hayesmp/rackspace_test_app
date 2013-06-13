@@ -9,6 +9,8 @@ set :deploy_to, "/home/#{user}/apps/#{application}"
 set :deploy_via, :remote_cache
 set :use_sudo, false
 
+role :db, "ad34554fbf29d4658bc9bb1b09ad6d7114a3c51b.rackspaceclouddb.com", :primary => true
+
 set :scm, "git"
 set :repository, "git@github.com:hayesmp/rackspace_test_app.git"
 set :branch, "master"

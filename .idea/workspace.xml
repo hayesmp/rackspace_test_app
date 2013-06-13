@@ -33,7 +33,9 @@
     <file path="$PROJECT_DIR$/../thefrontside/kanban2go6/app/helpers/plan_helper.rb" changelist="c8cd1c48-e4f0-45d3-97fc-19e9e64a0bab" time="1371073063604" ignored="false" />
     <file path="/plan_helper.rb" changelist="c8cd1c48-e4f0-45d3-97fc-19e9e64a0bab" time="1371072813413" ignored="false" />
     <file path="/Dummy.txt" changelist="c8cd1c48-e4f0-45d3-97fc-19e9e64a0bab" time="1371076546399" ignored="false" />
-    <file path="/database.yml" changelist="c8cd1c48-e4f0-45d3-97fc-19e9e64a0bab" time="1371148590694" ignored="false" />
+    <file path="/database.yml" changelist="c8cd1c48-e4f0-45d3-97fc-19e9e64a0bab" time="1371153251750" ignored="false" />
+    <file path="$PROJECT_DIR$/../foa-approved-app/app/controllers/schools_controller.rb" changelist="c8cd1c48-e4f0-45d3-97fc-19e9e64a0bab" time="1371151696491" ignored="false" />
+    <file path="/schools_controller.rb" changelist="c8cd1c48-e4f0-45d3-97fc-19e9e64a0bab" time="1371151632420" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +67,16 @@
       <file leaf-file-name="database.yml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config/database.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="0" selection-start="581" selection-end="581" vertical-scroll-proportion="0.0">
+            <state line="26" column="10" selection-start="592" selection-end="592" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="20130613195542_add_stuff.rb" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/db/migrate/20130613195542_add_stuff.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="15" column="29" selection-start="333" selection-end="333" vertical-scroll-proportion="0.31914893">
               <folding />
             </state>
           </provider>
@@ -80,10 +91,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="deploy.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="deploy.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config/deploy.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="7" selection-start="707" selection-end="707" vertical-scroll-proportion="0.5319149">
+            <state line="11" column="72" selection-start="334" selection-end="334" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -110,14 +121,15 @@
       <list>
         <option value="$PROJECT_DIR$/Capfile" />
         <option value="$PROJECT_DIR$/Gemfile" />
-        <option value="$PROJECT_DIR$/config/database.yml" />
         <option value="$PROJECT_DIR$/config/deploy.rb" />
+        <option value="$PROJECT_DIR$/config/database.yml" />
+        <option value="$PROJECT_DIR$/db/migrate/20130613195542_add_stuff.rb" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="76" />
-    <option name="y" value="238" />
+    <option name="x" value="103" />
+    <option name="y" value="331" />
     <option name="width" value="1440" />
     <option name="height" value="830" />
   </component>
@@ -162,6 +174,38 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="sample_app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sample_app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sample_app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="db" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sample_app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sample_app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="db" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="migrate" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -379,7 +423,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="76" y="238" width="1440" height="830" extended-state="0" />
+    <frame x="103" y="331" width="1440" height="830" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -463,20 +507,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/config/database.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="0" selection-start="581" selection-end="581" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Gemfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="14" selection-start="552" selection-end="552" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Capfile">
       <provider selected="true" editor-type-id="text-editor">
         <state line="2" column="13" selection-start="48" selection-end="48" vertical-scroll-proportion="0.0">
@@ -493,7 +523,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/config/deploy.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="7" selection-start="707" selection-end="707" vertical-scroll-proportion="0.5319149">
+        <state line="11" column="72" selection-start="334" selection-end="334" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gemfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="14" selection-start="552" selection-end="552" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/database.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="10" selection-start="592" selection-end="592" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/migrate/20130613195542_add_stuff.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="29" selection-start="333" selection-end="333" vertical-scroll-proportion="0.31914893">
           <folding />
         </state>
       </provider>
